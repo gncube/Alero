@@ -1,0 +1,62 @@
+<dotnetnuke type="Package" version="9.0">
+  <packages>
+    <package name="GSN.Alero" type="Skin" version="8.0.0">
+      <friendlyName>Alero DNN Skin</friendlyName>
+      <description>GSN.Alero is an DNN skin that uses Bootstrap and Fontawesome adapted from a visual designed by Jamie Andrew</description>
+      <owner>
+        <name>Gerald Ncube</name>
+        <organization>geraldncube.co.uk</organization>
+        <url>www.geraldncube.co.uk</url>
+        <email>me@geraldncube.co.uk</email>		
+      </owner>
+			<azureCompatible>true</azureCompatible>
+			<license src="License.txt"></license>
+			<releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <components>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>GSN.Alero</skinName>
+            <basePath>Portals\_default\Skins\GSN.Alero</basePath>
+          </skinFiles>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Portals\_default\Skins\GSN.Alero</basePath>
+            <resourceFile>
+              <name>GSN.AleroSkins.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+    <package name="GSN.Alero" type="Container" version="8.0.0">
+      <friendlyName>Alero DNN Containers</friendlyName>
+      <description>GSN.Alero is a DNN containers that uses Bootstrap and Fontawesome adapted from a visual designed by Jamie Andrew</description>
+      <owner>
+        <name>Gerald Ncube</name>
+        <organization>geraldncube.co.uk</organization>
+        <url>www.geraldncube.co.uk</url>
+        <email>me@geraldncube.co.uk</email>
+      </owner>
+	  <azureCompatible>true</azureCompatible>
+      <license>Copyright by Gerald Ncube</license>
+      <releaseNotes></releaseNotes>
+      <components>
+        <component type="Container">
+          <containerFiles>
+            <containerName>GSN.Alero</containerName>
+            <basePath>Portals\_default\Containers\GSN.Alero</basePath>
+          </containerFiles>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Portals\_default\Containers\GSN.Alero</basePath>
+            <resourceFile>
+              <name>GSN.AleroContainers.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

@@ -1,0 +1,19 @@
+<h3>Alero DNN Skin</h3>
+<p class="Contributor">
+	Gerald Ncube&reg; <br />
+	<a href="mailto:me@geraldncube.co.uk">me@geraldncube.co.uk</a><br />
+	<a href=http://geraldncube.co.uk>http://geraldncube.co.uk</a><br />
+</p>
+<hr/>
+<div class="License">
+	<p class="Owner">
+		<h3>About Alero Skin</h3>
+		<strong>Version 8.0.0</strong><br /><br />		
+		This release requires DotNetNuke core 6.2 or greater. <br /><br />
+		<ul>
+			<li>Added DNN Icon, DNN Visibility, DNN Actions </li>
+			<li>Added Languages to Skin</li>
+			<li>Fixed issue with dnnModuleDialog</li>
+		</ul>
+	</p>
+</div>
