@@ -50,18 +50,20 @@
                         <h2>Contact us</h2>
                     </div>
                     <ul class="list-unstyled contacts">
-                        <!--<li>
-                            <i class="radius-3x fa fa-map-marker margin-bottom-41"></i>
+                        <% If (UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.PostalCode) { %>
+                            <li>
+                                <i class="radius-3x fa fa-map-marker margin-bottom-41"></i>
 
-                            <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Unit%>, 
-                            <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Street%>
-                            <br />
-                            <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.City%> <br />
-                            <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Region%>,
-                            <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.PostalCode%>
-                            <br />
-                            <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Country%>
-                        </li>-->
+                                <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Unit%>,
+                                <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Street%>
+                                <br />
+                                <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.City%> <br />
+                                <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Region%>,
+                                <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.PostalCode%>
+                                <br />
+                                <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Country%>
+                            </li>
+                        <% } %>
                         <li>
                             <i class="radius-3x fa fa-globe"></i>
                             <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Email%>

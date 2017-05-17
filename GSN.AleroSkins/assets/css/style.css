@@ -383,6 +383,7 @@
     .footer-v6 .footer .contacts li {
         margin-bottom: 20px;
         color: #fff;
+        min-width: 285px;
     }
 
         .footer-v6 .footer .contacts li:before,
