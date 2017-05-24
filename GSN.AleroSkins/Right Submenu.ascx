@@ -55,7 +55,7 @@
 
                 </div>
                 <div class="navbar-collapse collapse">
-                    <dnn:MENU ID="MENU" MenuStyle="TopNav" runat="server"></dnn:MENU>
+                    <dnn:MENU ID="MENU" MenuStyle="assets/menus/simple" runat="server"></dnn:MENU>
 
                     <!-- Logo Section -->
                     <!--#include file="assets/logo.ascx"-->
