@@ -50,7 +50,9 @@
                         <h2>Contact us</h2>
                     </div>
                     <ul class="list-unstyled contacts">
-                        <% If (UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.PostalCode) { %>
+                        <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.PostalCode)) Then %>
+                         
+                            <% Else %>
                             <li>
                                 <i class="radius-3x fa fa-map-marker margin-bottom-41"></i>
 
@@ -63,7 +65,7 @@
                                 <br />
                                 <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Country%>
                             </li>
-                        <% } %>
+                        <% End If %>
                         <li>
                             <i class="radius-3x fa fa-globe"></i>
                             <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Email%>
