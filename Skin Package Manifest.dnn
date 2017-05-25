@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="9.0">
   <packages>
-    <package name="GSN.Alero" type="Skin" version="8.0.0">
+    <package name="GSN.Alero" type="Skin" version="8.0.2">
       <friendlyName>Alero DNN Skin</friendlyName>
       <description>GSN.Alero is an DNN skin that uses Bootstrap and Fontawesome adapted from a visual designed by Jamie Andrew</description>
       <owner>
@@ -29,7 +29,7 @@
         </component>
       </components>
     </package>
-    <package name="GSN.Alero" type="Container" version="8.0.0">
+    <package name="GSN.Alero" type="Container" version="8.0.2">
       <friendlyName>Alero DNN Containers</friendlyName>
       <description>GSN.Alero is a DNN containers that uses Bootstrap and Fontawesome adapted from a visual designed by Jamie Andrew</description>
       <owner>
